@@ -4,3 +4,5 @@
 - Groups helps to magange users/teams in the company. Groups helps to minimize and improve the efficiency of user creattion/deletion. 
     - For example, if new user Joined/Leaving, groups are already defined and attached policies. Now we just creat/delete an user and delete.
     - This makes are easy task to process it.
+
+# Why Roles are important in AWS Account?
