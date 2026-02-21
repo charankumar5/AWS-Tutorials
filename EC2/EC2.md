@@ -138,6 +138,7 @@ flowchart TD
 
 * 🚀 Deploy closer to users for better performance
 * 🔄 High availability
+* 🏢 Very low latency
 * 🛡️ Fault tolerance
 * 🌐 Global application deployment
 
