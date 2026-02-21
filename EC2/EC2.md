@@ -193,6 +193,121 @@ This ability to grow and shrink automatically is called:
 
 ---
 
+# ☁️ What are types of EC2 instances?
+
+Amazon EC2 instances are grouped based on what kind of workload they are best at handling:
+
+- 🧩 **General Purpose**
+- ⚡ **Compute Optimized**
+- 🧠 **Memory Optimized**
+- 💾 **Storage Optimized**
+- 🚀 **Accelerated Computing**
+
+---
+
+# 🤔 Which type of EC2 instance to be used, why and when?
+
+Below is a simple and practical guide for choosing the right instance type.
+
+---
+
+## 🧩 General Purpose Instances
+
+**✅ Use when:**
+- You need a balance of CPU, memory, and networking
+- Running web servers 🌐
+- Small to medium databases
+- Development & testing environments 👨‍💻
+
+**💡 Why:**
+They provide a good mix of performance and cost. Perfect when your app doesn’t heavily depend on just one resource.
+
+**📝 Example:**
+Hosting a Node.js, Django, or simple backend application.
+
+---
+
+## ⚡ Compute Optimized Instances
+
+**✅ Use when:**
+- High-performance web servers
+- Batch processing jobs
+- Gaming servers 🎮
+- Scientific modeling
+
+**💡 Why:**
+Designed for CPU-intensive workloads. If your app constantly uses high CPU, this is your best choice.
+
+**📝 Example:**
+Video encoding or processing thousands of requests per second.
+
+---
+
+## 🧠 Memory Optimized Instances
+
+**✅ Use when:**
+- High-performance databases 📊
+- In-memory caching (Redis, Memcached)
+- Real-time big data analytics
+- Enterprise applications
+
+**💡 Why:**
+They provide large amounts of RAM. Ideal when your application keeps lots of data in memory.
+
+**📝 Example:**
+Running a large MySQL or PostgreSQL database.
+
+---
+
+## 💾 Storage Optimized Instances
+
+**✅ Use when:**
+- Big data workloads
+- Data warehousing
+- Log processing 📂
+- NoSQL databases (Cassandra, MongoDB)
+
+**💡 Why:**
+Optimized for high disk throughput and IOPS. Perfect when fast and frequent disk access is required.
+
+**📝 Example:**
+Processing terabytes of log files daily.
+
+---
+
+## 🚀 Accelerated Computing Instances
+
+**✅ Use when:**
+- Machine learning & AI 🤖
+- Graphics rendering
+- Video processing
+- Scientific simulations
+
+**💡 Why:**
+They use GPUs or specialized hardware (like FPGAs) to accelerate heavy computations.
+
+**📝 Example:**
+Training deep learning models using TensorFlow or PyTorch.
+
+---
+
+# 🎯 Quick Selection Guide
+
+| If your app needs mostly… | Choose this instance type |
+|----------------------------|----------------------------|
+| Balanced resources | 🧩 General Purpose |
+| High CPU power | ⚡ Compute Optimized |
+| Large RAM | 🧠 Memory Optimized |
+| Fast disk performance | 💾 Storage Optimized |
+| GPU / hardware acceleration | 🚀 Accelerated |
+
+---
+
+💡 **Tip:** If you're unsure, start with 🧩 **General Purpose**, monitor performance 📈, and scale or switch based on real usage.
+ 
+
+---
+
 # 🧾 Quick Summary
 
 Amazon EC2 allows you to:
