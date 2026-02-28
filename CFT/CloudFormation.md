@@ -8,6 +8,7 @@
 * Even though if you don't follow rules to organise template is valid for other details, descriptions, metadata, and etc.
 * But Resources section should be must, becuase we are using CFT to create resources right.
 
+
 ## A Sample template to create EC2 Instance:
 
 ```
