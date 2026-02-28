@@ -2,6 +2,11 @@
 >> https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/Welcome.html
 
 
+## How to write perfect template?
+* Follow the Template formats to get used to it.
+* Also checkout Template anotomy for clear understanding.
+* Even though if you don't follow rules to organise template is valid for other details, descriptions, metadata, and etc.
+* But Resources section should be must, becuase we are using CFT to create resources right.
 
 ## A Sample template to create EC2 Instance:
 
